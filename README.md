@@ -7,11 +7,11 @@ Inside the Interface Builder:
 iOs Simulator:
 ![alt tag](http://1.bp.blogspot.com/-9WA6AvFMWoU/VTCNzHZbKwI/AAAAAAAAAOo/Z9aPZmAvvIA/s1600/Pic-2.jpg =100x20)
 
-Features
-•	Customizable width and color for line and border of the outer/inner circle.
-•	Customizable text label.
-•	Customizable color, opacity, radius, and offset for shadow of the inner and outer circle
-•	Supports the iOS 8 adaptive layout
+### Features
+*	Customizable width and color for line and border of the outer/inner circle.
+*	Customizable text label.
+*	Customizable color, opacity, radius, and offset for shadow of the inner and outer circle
+*	Supports the iOS 8 adaptive layout
 
 You can change all of this in the interface builder or in runtime.
 
