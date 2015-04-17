@@ -7,8 +7,6 @@ Inside the Interface Builder:
 iOs Simulator:
 ![alt tag](http://2.bp.blogspot.com/-YdCvLZUmNNs/VTCfmi1S-HI/AAAAAAAAAO4/Uz7IQeji8po/s1600/Pic-3.jpg)
 
-![alt tag](http://2.bp.blogspot.com/-YdCvLZUmNNs/VTCfmi1S-HI/AAAAAAAAAO4/Uz7IQeji8po/s1600/Pic-3.jpg)
-
 ### Features
 *	Customizable width and color for line and border of the outer/inner circle.
 *	Customizable text label.
