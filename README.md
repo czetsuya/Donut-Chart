@@ -15,6 +15,8 @@ The iOS Donut Progress Bar is an iOS library that you can integrate in your proj
 
 You can change all of this in the interface builder or in runtime.
 
+### Note: In order to be able to use the Donut Progress Bar, you must first purchase the [framework](http://broodcamp.binpress.com/product/ios-donut-progress-bar/2884).
+
 ### Installation
 Drag the BCDoughtnutPercentageFramework from BCDoughtnutpercentageContents folder to your project. And after, go to “General” where you should see “Embedded Libraries”, from there add the framework.
 
