@@ -38,4 +38,5 @@ Note: Don’t forget to apply the changes when a property have been change by ca
 circleView.animateCircle(1.0)
 
 
-### Important Note: In order to be able to use the Donut Progress Bar, you must first purchase the framework [at this site](http://broodcamp.binpress.com/product/ios-donut-progress-bar/2884).
+### Important Note:
+To be able to use the Donut Progress Bar, you must first purchase the framework [at this site](http://broodcamp.binpress.com/product/ios-donut-progress-bar/2884).
