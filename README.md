@@ -15,15 +15,15 @@ iOs Simulator:
 
 You can change all of this in the interface builder or in runtime.
 
-Installation
+### Installation
 Drag the BCDoughtnutPercentageFramework from BCDoughtnutpercentageContents folder to your project. And after, go to “General” where you should see “Embedded Libraries”, from there add the framework.
 
 Next, add all the files from BCDoughtnutPercentageView to your project by dragging the folder. 
 
-Setup
+### Setup
 You can now use the BCDoughnutPercentageView as the class of uiview. Drag a UIview from the object library then change its class name to “BCDoughnutPercentageView”. You can now customize its properties from the attribute inspector.
 
-Example Usage In Runtime
+### Example Usage In Runtime
 circleView.outerRadius = 20
 circleView.oColor = UIColor(red: 244/255, green: 156/255, blue: 45/255, alpha: 1)
 circleView.percentage  = 75
