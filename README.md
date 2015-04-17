@@ -5,7 +5,7 @@ Inside the Interface Builder:
 ![alt tag](http://4.bp.blogspot.com/-s9UNv7Z3V3E/VTCNp0IVaeI/AAAAAAAAAOg/_gxZeqOGwFs/s1600/Pic-1.jpg)
 
 iOs Simulator:
-![alt tag](http://1.bp.blogspot.com/-9WA6AvFMWoU/VTCNzHZbKwI/AAAAAAAAAOo/Z9aPZmAvvIA/s1600/Pic-2.jpg)
+![alt tag](http://1.bp.blogspot.com/-9WA6AvFMWoU/VTCNzHZbKwI/AAAAAAAAAOo/Z9aPZmAvvIA/s1600/Pic-2.jpg =100x20)
 
 Features
 •	Customizable width and color for line and border of the outer/inner circle.
