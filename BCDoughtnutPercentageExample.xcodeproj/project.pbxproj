@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		B780F2A51AE0B39300A6877E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2A41AE0B39300A6877E /* AppDelegate.swift */; };
 		B780F2A81AE0B39300A6877E /* BCDoughtnutPercentageExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B780F2A61AE0B39300A6877E /* BCDoughtnutPercentageExample.xcdatamodeld */; };
-		B780F2AA1AE0B39300A6877E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2A91AE0B39300A6877E /* ViewController.swift */; };
 		B780F2AD1AE0B39300A6877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B780F2AB1AE0B39300A6877E /* Main.storyboard */; };
 		B780F2AF1AE0B39300A6877E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B780F2AE1AE0B39300A6877E /* Images.xcassets */; };
 		B780F2B21AE0B39300A6877E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B780F2B01AE0B39300A6877E /* LaunchScreen.xib */; };
 		B780F2BE1AE0B39300A6877E /* BCDoughtnutPercentageExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2BD1AE0B39300A6877E /* BCDoughtnutPercentageExampleTests.swift */; };
+		B780F2D11AE0B3C100A6877E /* BCDoughnutPercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2CD1AE0B3C100A6877E /* BCDoughnutPercentageView.swift */; };
+		B780F2D21AE0B3C100A6877E /* BCInnerCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2CE1AE0B3C100A6877E /* BCInnerCircle.swift */; };
+		B780F2D31AE0B3C100A6877E /* BCOuterCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2CF1AE0B3C100A6877E /* BCOuterCircle.swift */; };
+		B780F2D41AE0B3C100A6877E /* BCPercentCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2D01AE0B3C100A6877E /* BCPercentCircle.swift */; };
+		B780F2D61AE0B3D000A6877E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B780F2D51AE0B3D000A6877E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +30,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B780F2CB1AE0B3A800A6877E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B780F29F1AE0B39300A6877E /* BCDoughtnutPercentageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCDoughtnutPercentageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B780F2A31AE0B39300A6877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B780F2A41AE0B39300A6877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B780F2A71AE0B39300A6877E /* BCDoughtnutPercentageExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BCDoughtnutPercentageExample.xcdatamodel; sourceTree = "<group>"; };
-		B780F2A91AE0B39300A6877E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B780F2AC1AE0B39300A6877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B780F2AE1AE0B39300A6877E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B780F2B11AE0B39300A6877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B780F2B71AE0B39300A6877E /* BCDoughtnutPercentageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCDoughtnutPercentageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B780F2BC1AE0B39300A6877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B780F2BD1AE0B39300A6877E /* BCDoughtnutPercentageExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCDoughtnutPercentageExampleTests.swift; sourceTree = "<group>"; };
+		B780F2CD1AE0B3C100A6877E /* BCDoughnutPercentageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCDoughnutPercentageView.swift; sourceTree = "<group>"; };
+		B780F2CE1AE0B3C100A6877E /* BCInnerCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCInnerCircle.swift; sourceTree = "<group>"; };
+		B780F2CF1AE0B3C100A6877E /* BCOuterCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCOuterCircle.swift; sourceTree = "<group>"; };
+		B780F2D01AE0B3C100A6877E /* BCPercentCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCPercentCircle.swift; sourceTree = "<group>"; };
+		B780F2D51AE0B3D000A6877E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				B780F2A41AE0B39300A6877E /* AppDelegate.swift */,
-				B780F2A91AE0B39300A6877E /* ViewController.swift */,
+				B780F2D51AE0B3D000A6877E /* ViewController.swift */,
 				B780F2AB1AE0B39300A6877E /* Main.storyboard */,
+				B780F2CC1AE0B3C100A6877E /* BCDoughtnutPercentageView */,
 				B780F2AE1AE0B39300A6877E /* Images.xcassets */,
 				B780F2B01AE0B39300A6877E /* LaunchScreen.xib */,
 				B780F2A61AE0B39300A6877E /* BCDoughtnutPercentageExample.xcdatamodeld */,
@@ -115,6 +137,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B780F2CC1AE0B3C100A6877E /* BCDoughtnutPercentageView */ = {
+			isa = PBXGroup;
+			children = (
+				B780F2CD1AE0B3C100A6877E /* BCDoughnutPercentageView.swift */,
+				B780F2CE1AE0B3C100A6877E /* BCInnerCircle.swift */,
+				B780F2CF1AE0B3C100A6877E /* BCOuterCircle.swift */,
+				B780F2D01AE0B3C100A6877E /* BCPercentCircle.swift */,
+			);
+			path = BCDoughtnutPercentageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +158,7 @@
 				B780F29B1AE0B39300A6877E /* Sources */,
 				B780F29C1AE0B39300A6877E /* Frameworks */,
 				B780F29D1AE0B39300A6877E /* Resources */,
+				B780F2CB1AE0B3A800A6877E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,9 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B780F2AA1AE0B39300A6877E /* ViewController.swift in Sources */,
+				B780F2D31AE0B3C100A6877E /* BCOuterCircle.swift in Sources */,
+				B780F2D11AE0B3C100A6877E /* BCDoughnutPercentageView.swift in Sources */,
 				B780F2A81AE0B39300A6877E /* BCDoughtnutPercentageExample.xcdatamodeld in Sources */,
+				B780F2D21AE0B3C100A6877E /* BCInnerCircle.swift in Sources */,
+				B780F2D61AE0B3D000A6877E /* ViewController.swift in Sources */,
 				B780F2A51AE0B39300A6877E /* AppDelegate.swift in Sources */,
+				B780F2D41AE0B3C100A6877E /* BCPercentCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BCDoughtnutPercentageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +398,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BCDoughtnutPercentageExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
