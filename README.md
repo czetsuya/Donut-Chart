@@ -1,6 +1,4 @@
 # Donut-Progress Bar
-Donut Progress Bar
-
 The iOS Donut Progress Bar is an iOS library that you can integrate in your project to present data in a graphical way. Furthermore, it will allow you to get a live preview of the design right in the Interface Builder.
 
 Inside the Interface Builder:
