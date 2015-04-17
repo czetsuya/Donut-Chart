@@ -25,9 +25,13 @@ You can now use the BCDoughnutPercentageView as the class of uiview. Drag a UIvi
 
 ### Example Usage In Runtime
 circleView.outerRadius = 20
+
 circleView.oColor = UIColor(red: 244/255, green: 156/255, blue: 45/255, alpha: 1)
+
 circleView.percentage  = 75
+
 circleView.fontSize = 25
+
 circleView.noOfDecimals = 0
 
 Note: Don’t forget to apply the changes when a property have been change by calling:
